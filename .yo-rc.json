@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.gamearea.poker",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "poker",
+    "packageName": "com.gamearea.poker",
+    "packageFolder": "com/gamearea/poker",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YjU2NjkwZTdiM2EwMGYwZDljM2RlMDhjNjlhMmEzZTA0YjllMWNiNWJlNTQ1ODkzYzg5NGMyZjNhOWJmMTAxYWZlNWExYjFmMjA4ZTMwMzhjZGE5NjRmZTM5ZGQ0YWFmNzMxYTc5ZWE2ZGZhYTJlNDljNWJmNjYxMTZiYjg2NTU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1613992743312,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "fr",
+    "languages": ["fr", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
