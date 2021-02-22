@@ -1,0 +1,27 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "poker",
+  "relationships": [],
+  "fields": [
+    {
+      "fieldName": "value",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "colour",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    }
+  ],
+  "changelogDate": "20210222132504",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "no",
+  "entityTableName": "card",
+  "databaseType": "sql",
+  "readOnly": true,
+  "jpaMetamodelFiltering": false,
+  "pagination": "infinite-scroll",
+  "microserviceName": "poker"
+}
